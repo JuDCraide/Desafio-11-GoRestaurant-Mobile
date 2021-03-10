@@ -73,19 +73,111 @@
   ],
   "orders": [
     {
-      "id": 1,
-      "product_id": 1,
-      "name": "Ao molho",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
-      "price": 19.9,
-      "category": 1,
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png",
+      "id": 56475,
+      "product_id": 3,
+      "name": "A la Camarón",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.90",
+      "total": "R$54,80",
+      "quantity": 2,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
       "extras": [
         {
           "id": 4,
           "name": "Bacon",
           "value": 1.5,
+          "formattedPrice": "R$1,50",
           "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 58650,
+      "product_id": 1,
+      "name": "Ao molho",
+      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+      "price": 19.9,
+      "total": "R$42,80",
+      "quantity": 2,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "extras": [
+        {
+          "id": 1,
+          "name": "Bacon",
+          "value": 1.5,
+          "formattedPrice": "R$1,50",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Frango",
+          "value": 2,
+          "formattedPrice": "R$2,00",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "id": 52927,
+      "product_id": 2,
+      "name": "Veggie",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
+      "total": "R$70,20",
+      "quantity": 3,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "extras": [
+        {
+          "id": 3,
+          "name": "Bacon",
+          "value": 1.5,
+          "formattedPrice": "R$1,50",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 27567,
+      "product_id": 2,
+      "name": "Veggie",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
+      "total": "R$21,90",
+      "quantity": 1,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "extras": [
+        {
+          "id": 3,
+          "name": "Bacon",
+          "value": 1.5,
+          "formattedPrice": "R$1,50",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "id": 13379,
+      "product_id": 1,
+      "name": "Ao molho",
+      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+      "price": 19.9,
+      "total": "R$19,90",
+      "quantity": 1,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "extras": [
+        {
+          "id": 1,
+          "name": "Bacon",
+          "value": 1.5,
+          "formattedPrice": "R$1,50",
+          "quantity": 0
+        },
+        {
+          "id": 2,
+          "name": "Frango",
+          "value": 2,
+          "formattedPrice": "R$2,00",
+          "quantity": 0
         }
       ]
     }
@@ -99,6 +191,28 @@
       "category": 2,
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
       "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png"
+    },
+    {
+      "id": 1,
+      "name": "Ao molho",
+      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+      "price": 19.9,
+      "category": 1,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png",
+      "extras": [
+        {
+          "id": 1,
+          "name": "Bacon",
+          "value": 1.5
+        },
+        {
+          "id": 2,
+          "name": "Frango",
+          "value": 2
+        }
+      ],
+      "formattedPrice": "R$19,90"
     }
   ]
 }

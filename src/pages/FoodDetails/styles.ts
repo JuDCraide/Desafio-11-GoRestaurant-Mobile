@@ -112,6 +112,7 @@ export const AdditionalQuantity = styled.View`
   flex-direction: row;
   justify-content: space-between;
   width: 105px;
+  margin-left: auto;
 `;
 
 export const TotalContainer = styled.View`

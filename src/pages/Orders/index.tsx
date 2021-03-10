@@ -23,6 +23,7 @@ interface Food {
   name: string;
   description: string;
   price: number;
+  total: string;
   formattedPrice: string;
   thumbnail_url: string;
 }
@@ -68,7 +69,8 @@ const Orders: React.FC = () => {
               <FoodContent>
                 <FoodTitle>{item.name}</FoodTitle>
                 <FoodDescription>{item.description}</FoodDescription>
-                <FoodPricing>{item.formattedPrice}</FoodPricing>
+                <FoodTitle>{item.formattedPrice} und.</FoodTitle>
+                <FoodPricing>Total: {item.total}</FoodPricing>
               </FoodContent>
             </Food>
           )}

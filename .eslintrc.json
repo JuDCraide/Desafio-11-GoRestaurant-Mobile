@@ -29,6 +29,7 @@
     "prettier"
   ],
   "rules": {
+    "no-shadow":"off",
     "camelcase": "off",
     "prettier/prettier": "error",
     "no-use-before-define": "off",
